@@ -40,4 +40,7 @@ export class StocksComponent implements OnInit {
       this.priceQuery.fetchQuote(symbol, period);
     }
   }
+  moreInfoLink() {
+    window.location = 'http://www.t-mobile.com';
+  }
 }
