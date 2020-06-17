@@ -2,7 +2,7 @@
 
 ### Important! Read this First !
 
-Do **not** submit a pull request to this repository.  You PR wil be rejected and your submission ignored.
+Do **not** submit a pull request to this repository. You PR wil be rejected and your submission ignored.
 To be safe **do not Fork** this repository, if you do you will be tempted to create a PR.
 
 To _properly_ submit a coding challenge you must:
@@ -17,7 +17,6 @@ To _properly_ submit a coding challenge you must:
 7. send address of your copy to t-mobile.
 
 We will review your copy online before and during your interview.
-
 
 # Stocks coding challenge
 
@@ -43,6 +42,7 @@ A proxy has been set up in `stocks` to proxy calls to `locahost:3333` which is t
 Please provide a short code review of the base `master` branch:
 
 #### Task 1-A
+
 1. What is done well?
 2. What would you change?
 3. Are there any code smells or problematic implementations?
@@ -51,10 +51,13 @@ Please provide a short code review of the base `master` branch:
 
 #### Task 1-B
 
-[Accessability](https://www.w3.org/WAI/GL/WCAG20/) is an important feature of all public facing websites.  
+[Accessability](https://webaim.org/intro/) is an important feature of all public facing websites.
 
-> Make a PR to add accessability features to the web application
+1. In Google Chrome, run an automated scan with the extension of your choice. [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk), [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd), or [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh), correct these issue(s).
+2. In Chrome again, manually check for accessibility issues. Identify at least 1 issue, not found in the automated scan and fix them.
+3. Are there any other accessibility considerations? Name at least one.
 
+> Make a PR to add accessability fixes to the web application
 
 ### Task 2
 
